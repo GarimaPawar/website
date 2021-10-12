@@ -1,0 +1,41 @@
+package com.example;
+
+public class elseif {
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        int x = 0;
+
+        if (x > 0) {
+            System.out.println("Positive");
+        } else if (x < 0) {
+            System.out.println("negative");
+        } else {
+            System.out.println("zero");
+        }
+
+
+        int y = 200;
+
+        if (y > 15) {
+            System.out.println("Greater than 15");
+        }
+        if (y > 100) {
+            System.out.println("Greater than 100");
+        }
+        if (y > 135) {
+            System.out.println("Greater than 135");
+        }
+
+
+        int a = 1;
+
+        if (a > 15) {
+            System.out.println("Greater than 15");
+        } else if (a > 100) {
+            System.out.println("Greater than 100");
+        } else if (a > 135) {
+            System.out.println("Greater than 135");
+        }
+    }
+
+}
